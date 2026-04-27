@@ -1,0 +1,10 @@
+{
+  "name": "agri-trade-root",
+  "version": "1.0.0",
+  "scripts": {
+    "frontend": "cd agri-trade-cra && npm run dev",
+    "backend": "cd backend && mvn spring-boot:run",
+    "run-all": "start npm run frontend & start npm run backend",
+    "dev": "npm run frontend"
+  }
+}

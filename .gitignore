@@ -1,0 +1,19 @@
+# ───── Frontend ─────
+agri-trade-cra/node_modules/
+agri-trade-cra/dist/
+agri-trade-cra/.env
+agri-trade-cra/.vscode/
+
+# ───── Backend ─────
+backend/target/
+backend/*.log
+backend/*.mv.db
+backend/*.trace.db
+backend/data/
+
+# ───── General ─────
+.DS_Store
+Thumbs.db
+*.class
+*.jar
+*.war
